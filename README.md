@@ -4,10 +4,14 @@
 - Go to project file
 
 - build the project using the command:
-mvn clean install -DskipTests
-
+```console
+$ mvn clean install -DskipTests
+```
 - build docker compose using the command:
-docker-compose build
-
+```console
+$ docker-compose build
+```
 - start the project using the command:
-docker-compose up
+```console
+$ docker-compose up
+```
