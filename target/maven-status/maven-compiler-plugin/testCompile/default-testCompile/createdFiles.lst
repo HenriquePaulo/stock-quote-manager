@@ -1,0 +1,7 @@
+com\paulo\stockquotemanager\service\StockManagerServiceTest.class
+com\paulo\stockquotemanager\repository\QuoteRepositoryTest.class
+com\paulo\stockquotemanager\service\StockQuoteServiceValidateTest.class
+com\paulo\stockquotemanager\controller\StockQuoteControllerTest.class
+com\paulo\stockquotemanager\service\StockQuoteServiceTest.class
+com\paulo\stockquotemanager\StockQuoteManagerApplicationTests.class
+com\paulo\stockquotemanager\service\CacheServiceTest.class
