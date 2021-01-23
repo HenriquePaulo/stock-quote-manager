@@ -3,8 +3,6 @@ package com.paulo.stockquotemanager.Model;
 import java.util.Map;
 
 import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 import com.paulo.stockquotemanager.json.StockManagerJson;
@@ -20,8 +18,6 @@ import lombok.Setter;
 public class Quote {
 	
 	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private Long id;
 	private String quoteDate;
 	private Double price;
 	private String stockId;
